@@ -6,7 +6,7 @@ This repository includes one of the major contributions of my master thesis :
 
 ## Model of Chrome frame rendering workflow
 
-The identified pattern of events each frame goes through is available here as a picture or here https://drive.google.com/file/d/1mV4hpf-9-lWhRUSZyzA7cwhj7-CbfqoF/view?usp=sharing (this drawing is kept in my google drive, but may bee deleted sometimes in the future).
+The identified pattern of events each frame goes through is available here as a picture (chrome_frame_model.png) or here https://drive.google.com/file/d/1mV4hpf-9-lWhRUSZyzA7cwhj7-CbfqoF/view?usp=sharing (this drawing is kept in my google drive, but may be deleted sometimes in the future).
 
 A new frame can follow overall 3 different patterns though some combinations of the three can occur : 
 * the browser surface changes (pool 'Browser Frame')
@@ -15,7 +15,7 @@ A new frame can follow overall 3 different patterns though some combinations of 
 
 Each pool is divided into rows representing the thread the events inside belong to. The arrows connecting the events represent either a chronological order (one event happens after the other) or a parent/child relationship (one event 'contains' the other event, the former starting before and ending after the latter).
 
-For more detailed information about this model, please refer to my Master Thesis report.
+For more detailed information about this model, please refer to my Master Thesis report (master_thesis_report.png).
 
 ## FrameTracker
 
